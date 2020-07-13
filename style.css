@@ -12,6 +12,12 @@
        url('../fonts/b612-v4-latin-regular.svg#B612') format('svg'); /* Legacy iOS */
 }
 
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background: #111111;
+  color: #dddddd;
+}
+
 .ctr {
   text-align: center;
 }
@@ -21,8 +27,9 @@
   height: 70px;
 }
 
-.dik{
-  background: #aaa;
+
+#Time_div{
+    margin-bottom: 5%;
 }
 
 .sliderContainer{
