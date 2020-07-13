@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Physics Webapp</title>
+  </head>
+  <body class="dik">
+
+      <div>
+        <h1 class="ctr">Welcome!</h1>
+      </div>
+
+
+    <div>
+      <h2 class="ctr">Time dilation:</h2>
+      <p class="ctr">
+        Please adjust your velocity compared to the speed of light:
+      </p>
+      <div class="sliderContainer">
+        <input type="range" name="slider2" min = "0" max = "1000" value="0" class="slider" id="timeRange">
+         <p> Your velocity: <span id = "sld_t">0</span>c</p>
+         <p> Wow, that is: <span id = "vel_t">0</span> m/s!</p>
+         <p> Time would feel <span id = "t_t">1</span> times slower, than for someone standing still!</p>
+         <script src="time.js"></script>
+      </div>
+
+
+      <h2 class="ctr">Length contraction:</h2>
+      <p class="ctr">
+        Please adjust the object's velocity compared to the speed of light:
+      </p>
+      <div class="sliderContainer">
+        <input type="range" name="slider2" min = "0" max = "1000" value="0"
+         class="slider" id="lengthRange">
+         <p> The object's velocity: <span id = "sld_l">0</span>c</p>
+         <p> Wow, that is: <span id = "vel_l">0</span> m/s!</p>
+         <p> The object would look <span id = "l_l">1</span> times it's original size!</p>
+         <canvas id="rectContainer" width="520" height="70"></canvas>
+         <script src="length.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
