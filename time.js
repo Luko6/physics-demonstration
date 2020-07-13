@@ -16,3 +16,5 @@ slider_t.oninput = function() {
   velocity_t.innerHTML = velo_t.toFixed();
   comped_t.innerHTML   = calculatedValue_t.toFixed(3);
 }
+
+//Random stuff
